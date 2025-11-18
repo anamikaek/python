@@ -1,0 +1,5 @@
+C=(1,2,3,3,4,5,6)
+print(type(C))
+print(C.count(3))
+T=("a",)
+print(type(T))

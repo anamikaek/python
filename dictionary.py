@@ -1,0 +1,16 @@
+student={'name':'Nazil',
+          'age':21,
+          'city':'kozhikode'}
+student['mark']=80
+print(student)
+print(student.get('name'))
+print(student.get('adress','calicut'))
+student['name']='anamika'
+print(student)
+print(student.keys())
+print(student.items())
+print(student.items())
+student.update({'age':23,'course':'AI&ML'})
+print(student)
+student.pop('city')
+print(student)
